@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LC Translator</string>
+    <string name="accessibility_service_description">Reads Live Caption text and sends it to an LLM for translation.</string>
+    <string name="settings">Settings</string>
+    <string name="start_overlay">Start Overlay</string>
+    <string name="stop_overlay">Stop Overlay</string>
+    <string name="clear_history">Clear</string>
+    <string name="api_key_hint">API Key</string>
+    <string name="save">Save</string>
+    <string name="provider_label">LLM Provider</string>
+    <string name="target_lang_label">Target Language</string>
+    <string name="caption_pkg_hint">Live Caption Package (advanced)</string>
+    <string name="base_url_hint">OpenAI-compatible Base URL (optional)</string>
+    <string name="model_hint">Model</string>
+    <string name="fetch_models">Fetch Models</string>
+    <string name="fetching_models">Fetching…</string>
+    <string name="no_models_found">No models found</string>
+    <string name="models_fetch_error">Failed to fetch models</string>
+    <string name="pref_api_key">api_key</string>
+    <string name="pref_target_lang">target_lang</string>
+    <string name="pref_provider">provider</string>
+    <string name="pref_caption_pkg">caption_pkg</string>
+    <string name="pref_base_url">base_url</string>
+    <string name="pref_model">model</string>
+    <string name="default_target_lang">Japanese</string>
+    <string name="default_caption_pkg">com.google.android.as</string>
+    <string name="overlay_permission_title">Overlay Permission Required</string>
+    <string name="overlay_permission_msg">Please grant "Draw over other apps" permission for the translation overlay.</string>
+    <string name="accessibility_prompt">Enable LC Translator in Accessibility Settings to start capturing captions.</string>
+    <string name="translating">Translating…</string>
+
+    <string-array name="providers">
+        <item>CLAUDE</item>
+        <item>OPENAI</item>
+        <item>GEMINI</item>
+    </string-array>
+
+    <string-array name="language_names">
+        <item>Japanese</item>
+        <item>Chinese (Simplified)</item>
+        <item>Chinese (Traditional)</item>
+        <item>Korean</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Hindi</item>
+        <item>Indonesian</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+    </string-array>
+
+    <string-array name="language_codes">
+        <item>Japanese</item>
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+        <item>Korean</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Italian</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Arabic</item>
+        <item>Hindi</item>
+        <item>Indonesian</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+    </string-array>
+</resources>
